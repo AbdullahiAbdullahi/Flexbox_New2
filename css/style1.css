@@ -1,8 +1,6 @@
 html, body{
-    height: 100%;
-
+    height:100%;
 }
-
 main{
     background-color: yellow;
     min-height: 100%;
@@ -12,6 +10,7 @@ main{
     align-items: center;
 }
 
+
 nav ul{
     display: flex;
     flex-direction: row;
@@ -19,10 +18,33 @@ nav ul{
     list-style-type: none;
 }
 
-.vertical ul{
+
+.verticle ul{
     display: flex;
     flex-direction: column;
     gap: 16px;
     list-style-type: none;
 }
+
+
+.pane{
+    display: flex;
+     flex-direction: row;
+}
+
+
+.card{
+    flex: 1;
+}
+
+
+.mango{
+    height: 50px;
+    position: fixed;
+    top: 20px;
+    left:10px
+}
+
+
+
 
