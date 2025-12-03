@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+.container{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+footer{
+    flex: 0 0 150px;
+    background-color: aqua;
+   
+}
+
+
+header {
+        position: sticky;
+        top: -15px;
+        padding-top: 15px;
+        opacity: 1;
+        Background-color: white;
+}
+
+
+
+
+.center{
+    flex: 1;
+    display: Flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    background-color: pink;
+}
+
+
+nav, aside{
+    flex: 1;
+    background-color: lightgreen;
+   
+}
+
+
+main {
+    flex: 3;
+}
+
+
+
+
